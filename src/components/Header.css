@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: #001A3C;
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-left: 2rem;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}

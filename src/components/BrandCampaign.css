@@ -1,0 +1,32 @@
+
+.heading-container h1{
+    padding: 15px;
+    text-align: center;
+}
+/* src/components/BrandCampaign.css */
+.gallery {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Flexible columns */
+  gap: 50px; /* Space between grid items */
+  padding: 16px;
+}
+
+.gallery-item {
+  border-radius: 8px; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7); 
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  /* height: 100%; */
+  object-fit: fill;
+  transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.gallery-item p{
+  font-size: 24px;
+  text-align: center;
+}
+
