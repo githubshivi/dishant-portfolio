@@ -1,20 +1,24 @@
-
-.heading-container h1{
-    padding: 15px;
-    text-align: center;
+.heading-container h1 {
+  padding: 15px;
+  text-align: center;
 }
 /* src/components/BrandCampaign.css */
-.gallery {
+.poster-gallery {
   display: grid;
-  align-items: start;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Flexible columns */
-  gap: 50px; /* Space between grid items */
+  grid-template-columns: 1fr 1fr; /* Flexible columns */
+  row-gap: 150px; /* Space between grid items */
   padding: 16px;
+  margin-left: 40px;
+}
+
+.poster img {
+  width: 100%;
+  max-width: 90%;
 }
 
 .gallery-item {
-  border-radius: 8px; 
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7); 
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
   margin-bottom: 30px;
 }
 
@@ -25,18 +29,17 @@
   transition: transform 0.3s ease; /* Smooth zoom effect on hover */
 }
 
-.gallery-item-logo-black{
+.gallery-item-logo-black {
   background-color: rgb(88, 76, 76);
-  color:white;
+  color: white;
 }
-.gallery-item-logo img{
+.gallery-item-logo img {
   height: 300px;
   max-width: 100%;
   width: 100%;
 }
 
-.gallery-item p{
+.gallery-item p {
   font-size: 24px;
   text-align: center;
 }
-

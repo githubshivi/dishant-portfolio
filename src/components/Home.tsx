@@ -42,7 +42,7 @@ const Home = () => {
           <div className="showcase-item">
             <Link to="/brand-campaign">
               <img
-                src="/assets/brand_campaign/8 . Banner.jpg"
+                src="/assets/brand_campaign/8Banner.jpg"
                 alt="Project 1"
               />
               <p>Brand Campaign RUN&GO</p>
