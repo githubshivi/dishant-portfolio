@@ -1,0 +1,10 @@
+.video-item{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.video-item .video{
+    width: 920px;
+}

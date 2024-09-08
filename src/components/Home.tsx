@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { MdOutlineMail } from "react-icons/md";
 import Skills from "./Skills";
 const Home = () => {
   return (
@@ -36,13 +37,23 @@ const Home = () => {
       </section>
 
       {/* Showcase Section */}
-      <section className="showcase">
+      <section className="showcase" id="portfolio">
         <h2>Featured Projects</h2>
         <div className="showcase-grid">
+        <div className="showcase-item">
+            <a href="https://www.youtube.com/watch?v=nfZz3APFqsU" target="_blank">
+              <img
+                src="/assets/Youtube.png"
+                alt="Project 1"
+              />
+              <p>Youtube Work</p>
+            </a>
+          </div>
+
           <div className="showcase-item">
             <Link to="/brand-campaign">
               <img
-                src="/assets/brand_campaign/8Banner.jpg"
+                src="/assets/BRAND.png"
                 alt="Project 1"
               />
               <p>Brand Campaign RUN&GO</p>
@@ -51,15 +62,29 @@ const Home = () => {
 
           <div className="showcase-item">
             <Link to="/logos">
-              <img src="/assets/logos/logo.jpg" alt="Project 2" />
+              <img src="/assets/LOGOS.png" alt="Project 2" />
               <p>Logo's</p>
             </Link>
           </div>
 
           <div className="showcase-item">
             <Link to="/posters">
-              <img src="/assets/posters/poster2.jpg" alt="Project 3" />
+              <img src="/assets/Posters.png" alt="Project 3" />
               <p>Poster's</p>
+            </Link>
+          </div>
+
+          <div className="showcase-item">
+            <Link to="/videos">
+              <img src="/assets/Video.png" alt="Project 3" />
+              <p>Videos</p>
+            </Link>
+          </div>
+
+          <div className="showcase-item">
+            <Link to="/product-advertisement">
+              <img src="/assets/Product.png" alt="Project 3" />
+              <p>Product Advertisement</p>
             </Link>
           </div>
         </div>
@@ -71,12 +96,11 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="contact">
+      <section className="contact" id="contact">
         <h2>Contact Me</h2>
         <p>Feel free to reach out for collaboration or inquiries.</p>
-        <a href="#contact" className="cta-button">
-          Get in Touch
-        </a>
+        <p>Email: dishantrajput110@gmail.com</p>
+        <a style={{color:"black"}} className="btn" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGF_ezvmOIj4QAAAZHR1fYQU4iTeuWinW7FKxGaeE6L0uVK2qyLAArtW4-gRit0I_SHpyC2W1aSITVAW0hyoZYSaJru2set0NylVAakIkrVNFVezn8cTOwJdbOnidcH_89S718=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdishant-rajput-63588929a%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app" target="_blank">Linkdin: Dishant Rajput</a>
       </section>
     </div>
   );

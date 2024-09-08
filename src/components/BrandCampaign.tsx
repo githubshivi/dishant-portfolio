@@ -147,7 +147,7 @@ const photos: Photo[] = [
 
 const BrandCampaign: React.FC = () => {
   return (
-    <>
+    <><div className="brand-main-container">
       <div className="heading-container">
         <h1>Brand Campaign</h1>
       </div>
@@ -159,6 +159,7 @@ const BrandCampaign: React.FC = () => {
           </div>
         ))}
       </div>
+    </div>
     </>
   );
 };

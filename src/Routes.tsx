@@ -4,6 +4,8 @@ import BrandCampaign from "./components/BrandCampaign";
 import Layout from "./components/layout/Layout";
 import Logos from "./components/Logos";
 import Posters from "./components/Posters";
+import MotionGraphics from "./components/MotionGraphics";
+import ProductAdvertisement from "./components/ProductAdvertisement";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/posters",
         element: <Posters />,
+      },
+      {
+        path: "/videos",
+        element: <MotionGraphics />,
+      },
+      {
+        path: "/product-advertisement",
+        element: <ProductAdvertisement />,
       },
     ],
   },
