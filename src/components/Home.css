@@ -46,7 +46,7 @@
 .showcase {
   padding: 3rem 2rem;
   color: white;
-  background-image: url("assets/feature/Feature.png");
+  background-image: url("/assets/feature/Feature.png");
   background-size: cover;
   background-position: center;
 }
