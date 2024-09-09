@@ -2,6 +2,7 @@
 .heading-container h1{
     padding: 15px;
     text-align: center;
+    text-decoration: underline;
 }
 /* src/components/BrandCampaign.css */
 .gallery {

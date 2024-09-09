@@ -53,7 +53,6 @@ const MotionGraphics: React.FC = () => {
                         <video className="video" controls>
                             <source src={video.src} type="video/mp4" />
                         </video>
-                        <p>Video</p>
                     </div>
                 ))}
                 <br />
@@ -65,7 +64,6 @@ const MotionGraphics: React.FC = () => {
                         <video className="video" controls>
                             <source src={video.src} type="video/mp4" />
                         </video>
-                        <p>Video</p>
                     </div>
                 ))}
             </div>

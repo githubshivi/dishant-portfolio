@@ -7,6 +7,7 @@
   h2 {
     margin-bottom: 2rem;
     font-size: 2rem;
+    text-decoration: underline;
   }
   
   .skills-grid {
@@ -16,3 +17,12 @@
     justify-items: stretch;
   }
   
+
+  @media screen and (max-width: 768px){
+    .skills-section{
+      padding:0 20px
+    }
+    .skills-grid{
+      grid-template-columns: 1fr;
+    }
+  }

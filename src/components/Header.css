@@ -32,3 +32,10 @@
 .nav ul li a:hover {
   text-decoration: underline;
 }
+
+
+@media screen and (max-width:768px){
+  .header {
+    padding:2rem 1.2rem;
+  }
+}

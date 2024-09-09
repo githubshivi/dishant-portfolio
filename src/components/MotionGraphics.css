@@ -8,3 +8,13 @@
 .video-item .video{
     width: 920px;
 }
+
+@media screen and (max-width:768px) {
+    .video-item .video{
+        width: 100%;
+    }
+    .video-item{
+        margin: 30px 20px;
+    }
+    
+}

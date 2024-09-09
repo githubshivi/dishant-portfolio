@@ -31,7 +31,7 @@
 
 /* About Me Section */
 .about-me {
-  padding: 3rem 2rem;
+  padding: 7rem 2rem;
   text-align: center;
   font-size: 22px;
 }
@@ -39,6 +39,7 @@
 .about-me h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 /* Showcase Section */
@@ -104,6 +105,19 @@
   text-align: center;
 }
 
+.contact div{
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact div .btn{
+  cursor: pointer;
+}
+
+
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -112,4 +126,31 @@
 .contact p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+}
+
+
+@media screen and (max-width:768px){
+  .about-me {
+    padding: 2rem 2.5rem;
+    text-align: justify;
+    font-size: 22px;
+  }
+
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+
+  .showcase{
+    padding: 1rem 10px;
+  }
+
+  .skills{
+    padding: 1rem 0;
+  }
+
+  .showcase-item img{
+    object-fit: unset;
+  }
 }
